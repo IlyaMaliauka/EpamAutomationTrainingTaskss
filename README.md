@@ -1,2 +1,2 @@
 # EpamAutomationTrainingTaskss
-Java Fundamentals, Classes, Collection and Cleand code tasks.
+Java Fundamentals, Classes, Collections and Clean code tasks.

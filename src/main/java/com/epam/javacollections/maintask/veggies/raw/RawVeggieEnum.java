@@ -1,10 +1,8 @@
 package com.epam.javacollections.maintask.veggies.raw;
 
-public class RawVeggieEnum {
-    public enum RawVeggiesType{
+public enum RawVeggieEnum {
         CUCUMBER,
         TOMATO,
         CABBAGE,
         SPINACH
-    }
 }

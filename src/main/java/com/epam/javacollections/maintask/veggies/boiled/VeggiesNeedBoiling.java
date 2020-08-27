@@ -3,13 +3,13 @@ package com.epam.javacollections.maintask.veggies.boiled;
 import com.epam.javacollections.maintask.veggies.Vegetable;
 
 public class VeggiesNeedBoiling extends Vegetable {
-    VeggiesNeedBoilingEnum.BoilingVeggiesType boilingVeggiesType;
-    public VeggiesNeedBoiling(int weight, int calories, String refrigeratorLot, VeggiesNeedBoilingEnum.BoilingVeggiesType type) {
+    VeggiesNeedBoilingEnum boilingVeggiesType;
+    public VeggiesNeedBoiling(int weight, int calories, String refrigeratorLot, VeggiesNeedBoilingEnum type) {
         super(weight, calories, refrigeratorLot);
     boilingVeggiesType = type;
     }
 
-    public VeggiesNeedBoilingEnum.BoilingVeggiesType getBoilingVeggiesType() {
+    public VeggiesNeedBoilingEnum getBoilingVeggiesType() {
         return boilingVeggiesType;
     }
 

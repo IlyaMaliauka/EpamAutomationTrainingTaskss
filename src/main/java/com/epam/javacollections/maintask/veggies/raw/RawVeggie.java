@@ -3,13 +3,13 @@ package com.epam.javacollections.maintask.veggies.raw;
 import com.epam.javacollections.maintask.veggies.Vegetable;
 
 public class RawVeggie extends Vegetable {
-    RawVeggieEnum.RawVeggiesType rawVeggiesType;
-    public RawVeggie(int weight, int calories, String refrigeratorLot, RawVeggieEnum.RawVeggiesType type) {
+    RawVeggieEnum rawVeggiesType;
+    public RawVeggie(int weight, int calories, String refrigeratorLot, RawVeggieEnum type) {
         super(weight, calories, refrigeratorLot);
         rawVeggiesType = type;
     }
 
-    public RawVeggieEnum.RawVeggiesType getRawVeggiesType() {
+    public RawVeggieEnum getRawVeggiesType() {
         return rawVeggiesType;
     }
 

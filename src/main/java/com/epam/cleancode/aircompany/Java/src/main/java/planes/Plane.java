@@ -3,7 +3,7 @@ package com.epam.cleancode.aircompany.Java.src.main.java.planes;
 import java.util.Objects;
 
 abstract public class Plane {
-    String model;
+    private String model;
     private int maxSpeed;
     private int maxFlightDistance;
     private int maxLoadCapacity;

@@ -1,10 +1,8 @@
 package com.epam.javacollections.maintask.veggies.boiled;
 
-public class VeggiesNeedBoilingEnum {
-    public enum BoilingVeggiesType
+public enum VeggiesNeedBoilingEnum
     {
         SQUASH,
         PUMPKIN,
         BROCCOLI
     }
-}

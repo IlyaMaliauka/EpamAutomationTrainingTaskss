@@ -3,13 +3,13 @@ package com.epam.javacollections.maintask.veggies.veggieswithseeds;
 import com.epam.javacollections.maintask.veggies.Vegetable;
 
 public class VeggiesWithSeeds extends Vegetable {
-    VeggiesWithSeedsEnum.VeggiesSeedsType veggiesSeedsType;
-    public VeggiesWithSeeds(int weight, int calories, String refrigeratorLot, VeggiesWithSeedsEnum.VeggiesSeedsType type) {
+    VeggiesWithSeedsEnum veggiesSeedsType;
+    public VeggiesWithSeeds(int weight, int calories, String refrigeratorLot, VeggiesWithSeedsEnum type) {
         super(weight, calories, refrigeratorLot);
         veggiesSeedsType = type;
     }
 
-    public VeggiesWithSeedsEnum.VeggiesSeedsType getVeggiesSeedsType() {
+    public VeggiesWithSeedsEnum getVeggiesSeedsType() {
         return veggiesSeedsType;
     }
 

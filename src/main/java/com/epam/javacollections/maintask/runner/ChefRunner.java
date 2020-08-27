@@ -11,11 +11,11 @@ import com.epam.javacollections.maintask.veggies.veggieswithseeds.VeggiesWithSee
 public class ChefRunner {
     public static void main(String[] args) {
         SaladMaker vegetableSalad = new SaladMaker();
-        vegetableSalad.addToIngredients(new RawVeggie(150, 40, "23", RawVeggieEnum.RawVeggiesType.CUCUMBER));
-        vegetableSalad.addToIngredients(new VeggiesWithSeeds(150, 238, "4", VeggiesWithSeedsEnum.VeggiesSeedsType.AVOCADO));
-        vegetableSalad.addToIngredients(new RawVeggie(300, 24, "67",RawVeggieEnum.RawVeggiesType.TOMATO));
-        vegetableSalad.addToIngredients(new VeggiesNeedBoiling(300, 251, "37", VeggiesNeedBoilingEnum.BoilingVeggiesType.PUMPKIN));
-        vegetableSalad.addToIngredients(new VeggiesNeedBoiling(239,79 , "93", VeggiesNeedBoilingEnum.BoilingVeggiesType.SQUASH));
+        vegetableSalad.addToIngredients(new RawVeggie(150, 40, "23", RawVeggieEnum.CUCUMBER));
+        vegetableSalad.addToIngredients(new VeggiesWithSeeds(150, 238, "4", VeggiesWithSeedsEnum.AVOCADO));
+        vegetableSalad.addToIngredients(new RawVeggie(300, 24, "67",RawVeggieEnum.TOMATO));
+        vegetableSalad.addToIngredients(new VeggiesNeedBoiling(300, 251, "37", VeggiesNeedBoilingEnum.PUMPKIN));
+        vegetableSalad.addToIngredients(new VeggiesNeedBoiling(239,79 , "93", VeggiesNeedBoilingEnum.SQUASH));
         vegetableSalad.displayIngredients();
         vegetableSalad.cookSalad();
         vegetableSalad.getSaladCalories();
